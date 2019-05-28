@@ -59,7 +59,7 @@ header a:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-160%, -70%);
+    transform: translate(-43%, -110%);
     color: #35434a;
 
 }
@@ -113,13 +113,6 @@ header a:hover{
 }
 .sign-in .btn:hover{
     color: #E0021C;
-}
-.home_button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-315%,-280%);
-
 }
 #main{
     height: 1400px;
@@ -400,7 +393,6 @@ input #support:focus +i{
 footer{
     height: 100px;
     padding: 40px;
-    margin-top: 20px;
     color: #ffffff;
     background-color: #35434a;
     text-align: center; 
