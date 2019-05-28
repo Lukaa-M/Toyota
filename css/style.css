@@ -131,6 +131,7 @@ header a:hover{
     background-position: center;
     background-size: cover;
     position: relative;
+    max-width: 1024px;
 }
 #main-second .bg_img{
     min-height: 700px;
