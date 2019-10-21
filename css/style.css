@@ -131,12 +131,14 @@ header a:hover{
     background-position: center;
     background-size: cover;
     position: relative;
-    max-width: 1024px;
+    width: 100%;
 }
 #main-second .bg_img{
     min-height: 700px;
-    background-image: url("../img/about3_img.jpg");
-    background-position: center;
+    background-image: url("../img/about8_img.jpg");
+    background-position: 0% 38%;
+    background-size: cover;
+
     background-size: cover;
     position: relative;
 }
@@ -246,9 +248,9 @@ header a:hover{
 
 #hero-second{
     min-height: 500px;
-    background-image: url("../img/support_img.jpg");
+    background-image: url("../img/support10_img.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -271,11 +273,12 @@ header a:hover{
     width: 300px;
     outline: none;
     transition: .3s;
+    color: #E0021C;
 
     
 }
 #support::placeholder{
-    color:#35434a;
+    color:#cac9c9;
 }
 .input #support:focus{
     border-color: #E0021C;
@@ -286,7 +289,7 @@ header a:hover{
     position: absolute;
     left: 14px;
     top: 11px;
-    color: #35434a;
+    color: #E0021C;
     transition: .3s; 
 }
 input #support:focus +i{
